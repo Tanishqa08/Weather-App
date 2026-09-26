@@ -1,16 +1,50 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive weather application built with React that allows users to search for a city and view its current weather information using a weather API.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [View Live Demo]()
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Weather App is a React-based web application designed to provide weather information for different cities.
 
-## Expanding the ESLint configuration
+The application fetches real-time weather data from a REST API and dynamically displays the weather information based on the user's search.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project helped me strengthen my understanding of React, API integration, asynchronous JavaScript, state management, and dynamic UI rendering.
+
+## ✨ Features
+
+- 🔍 Search weather by city
+- 🌡️ Display current weather information
+- 🌤️ Dynamic weather data from API
+- ⚡ Asynchronous API requests
+- 🔄 Dynamic UI updates
+- 📱 Responsive design
+- ❌ Handles invalid or unsuccessful API requests
+- ⏳ Handles loading/application states
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
+- **REST API**
+- **Vercel**
+
+## 📂 Project Structure
+
+```text
+Weather-App/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── ...
+│
+├── package.json
+├── package-lock.json
+└── README.md
